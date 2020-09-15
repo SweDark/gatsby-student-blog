@@ -1,11 +1,13 @@
 import React from "react"
-import { Container, FeatureImage, Content } from "../components"
+import { Container, FeatureImage, Content, ContentCard } from "../components"
 
 const index = () => {
   return (
     <Container>
       <FeatureImage/>
-      <Content/>
+      <Content>
+        <ContentCard date="September 15, 2020" title="hello everyone" excerpt="hello again" slug="/yo" />
+      </Content>
     </Container>
   )
 }
