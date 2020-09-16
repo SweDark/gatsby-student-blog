@@ -5,26 +5,26 @@ margin: ${props => props.margin ? props.margin : 0};
 font-size: ${props => {
     switch(props.size){
         case "medium":
-            return "1.12rem"
-            case "small":
-                return "1rem"
-                case "xsmall":
-                    return "0.875rem"
-                    default:
-                        return "1.125rem"
+        return "1.12rem"
+        case "small":
+        return "1rem"
+        case "xsmall":
+        return "0.875rem"
+        default:
+        return "1.125rem"
     }
 }};
 
 line-height: ${props => {
     switch(props.size){
         case "medium":
-            return "1.12rem"
-            case "small":
-                return "1rem"
-                case "xsmall":
-                    return "0.875rem"
-                    default:
-                        return "1.125rem"
+        return "1.12rem"
+        case "small":
+        return "1rem"
+        case "xsmall":
+        return "0.875rem"
+        default:
+        return "1.125rem"
     }
 }};
 
@@ -33,11 +33,11 @@ text-decoration: ${props => props.textDecoration ? props.textDecoration : "none"
 font-weight: ${props => {
     switch (props.weight) {
         case "normal":
-            return 400
-            case "bold":
-                return 700
-                default: 
-                return 400
+        return 400
+        case "bold":
+        return 700
+        default: 
+        return 400
     }
 }};
 
@@ -69,17 +69,17 @@ export const H1 = styled.h1`
     color :${ props => {
     switch(props.color) {
         case "dark1":
-            return props.theme.colors.dark1
-            case "dark2":
-            return props.theme.colors.dark2
-            case "dark3":
-            return props.theme.colors.dark3
-            case "light1":
-            return props.theme.colors.light1
-            case "light2":
-            return props.theme.colors.light2
-            default:
-            return props.theme.colors.dark1
+        return props.theme.colors.dark1
+        case "dark2":
+        return props.theme.colors.dark2
+        case "dark3":
+        return props.theme.colors.dark3
+        case "light1":
+        return props.theme.colors.light1
+        case "light2":
+        return props.theme.colors.light2
+        default:
+        return props.theme.colors.dark1
 
     }
 }};
